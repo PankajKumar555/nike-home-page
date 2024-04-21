@@ -1,0 +1,11 @@
+.backgroung-color{
+  background-color: #353c46;
+  height: 100vh;
+  background: linear-gradient(to bottom left, #353c46, #775856);
+}
+
+@media(max-width: 900px){
+  .backgroung-color{
+    height: auto;
+  }
+}

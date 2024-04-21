@@ -1,0 +1,11 @@
+.body-container{
+    display: flex; 
+    width: 100vw;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+    .body-container {
+        display: block;
+    }
+  }

@@ -1,0 +1,40 @@
+.slider-container{
+    width: 50%;
+    margin-top: 50px;
+    margin-right: 3rem;
+}
+.ecommerce-slider{
+    padding-left: 10rem;
+}
+.main-image img{
+    width: 100%;
+    height: 45vh;
+}
+.thumbnail-images{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.thumbnail-images img{
+    width: 30%;
+    height: 12vh;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .slider-container {
+      width: 100%;
+      text-align: center;
+    }
+    .ecommerce-slider{
+        width: 50%;
+        margin: auto;
+        padding: 0px;
+    }
+    .main-image img{
+        height: auto;
+    }
+    .thumbnail-images img{
+        height: auto;
+    }
+  }
